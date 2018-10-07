@@ -75,9 +75,3 @@ def spider_iter(start = datetime.datetime.now()-day,country="us"):
             page_questions = get_questions(cont,source='hq_buff_'+country)
             all_questions+=page_questions
         date -= day    
-
-
-
-
-
-        
